@@ -22,7 +22,7 @@ Our fine-tuned transformer models significantly outperformed the task baselines 
 | :--- | :--- | :--- |
 | **ST1** | XLM-R Large + Focal Loss | **78.6** |
 | **ST2** | Twitter-XLM-RoBERTa + Asymmetric Loss (ASL) | **55.8** |
-| **ST3** | Ensemble (XLM-R Large + mDeBERTa) | **44.6** |
+| **ST3** | Ensemble (XLM-R-Large-PolarizationClassifier  + mDeBERTa) | **44.6** |
 
 > [!NOTE]
 > We achieved particularly high performance in languages like Urdu, Hindi, Nepali, and Chinese.
