@@ -34,7 +34,7 @@ Our fine-tuned transformer models significantly outperformed the task baselines 
 ### Model Architectures
 *   **Transformer Backbone:** Primary use of **XLM-RoBERTa Large**, **mDeBERTa**, and **LaBSE** to handle multilingual embeddings.
 *   **Domain Adaptation:** For ST2, we utilized `twitter-xlm-roberta-base-sentiment` to leverage domain-specific pre-training on social media data.
-*   **Ensemble Methods:** ST3 employs an ensemble of XLM-R and mDeBERTa to balance precision and recall across minority labels.
+*   **Ensemble Methods:** ST3 employs an ensemble of `XLM-R-Large-Polarization Classifier` and mDeBERTa to balance precision and recall across minority labels.
 
 ### Optimization Strategies
 *   **Focal Loss:** Implemented in ST1 to address class imbalance and focus on hard-to-classify instances.
